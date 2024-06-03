@@ -1,0 +1,9 @@
+#request
+int16 suction_mode
+int16 suction_force
+int16 suction_time
+geometry_msgs/PoseArray suction_traj
+---
+#result
+float32 success_rate
+bool result
